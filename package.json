@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-hw-01-cli",
+  "version": "1.0.0",
+  "description": "hw-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SNagirniy/goit-node-hw-01-cli.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "snagirnii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SNagirniy/goit-node-hw-01-cli/issues"
+  },
+  "homepage": "https://github.com/SNagirniy/goit-node-hw-01-cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "nanoid": "^3.3.4"
+  }
+}
